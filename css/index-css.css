@@ -1,0 +1,139 @@
+#about hr, #tvnews hr, #movienews hr {
+	width: 200px;
+	border-top: 4px solid #777;
+}
+
+#home h1{
+	font-size: 230px;
+}
+
+.bg-gradient{
+	opacity: 0.4;
+	background-color: #000;
+}
+
+/*#search-button a:link {
+  text-decoration: none;
+}
+*/
+#subbutton{
+	margin-left: 15px;
+}
+
+#search-icon{
+	margin-right: 20px;
+}
+
+/* #search-icon a:hover{
+	opacity: 1;
+} */
+
+
+section{
+	min-height: 400px;
+}
+
+#home{
+	background-color: #212529;
+	color: #ececec;
+	min-height: 880px;
+	padding-top: 250px;
+}
+
+#movienews{
+	background-color: #ececec;
+	color: #111;
+}
+
+#tvnews .imgwidth image{
+	width: 100%;
+}
+
+#tvnews .imgheight image{
+	height: 100%;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+.card-topic{
+	font-size: 40px;
+}
+
+#status{
+	font-size: 30px;
+}
+
+
+
+/* For Social Media Links */
+*{
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+.social-list a, i{
+	text-decoration: none;
+	font-size: 1.2rem;
+}
+
+#social-links{
+	position: fixed;
+	width: 70px;
+	margin-top: 250px;
+	box-shadow: 2px 2px 8px 0px rgba(0,0,0,0.5);
+	border-radius: 30px;
+	background-color: rgba(0,0,0,0.8);
+}
+
+nav>ul li{
+	height: 55px;
+	position: relative;
+}
+
+nav>ul li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	line-height: 55px;
+	padding-left: 25%;
+	border-bottom: 1px solid #3d3d3d;
+	border-radius: 30px;
+	color: #fff;
+	transition: all 0.2s linear;
+}
+
+nav>ul li a i{
+	position: absolute;
+	top: 17px;
+	left: 30px;
+}
+
+.social-span{
+	display: none;
+	text-decoration: none;
+}
+
+.social:hover{
+	width: 200px;
+	z-index: 1;
+	border-radius: 30px;
+	border-bottom: 1px solid rgba(0,0,0,0.5);
+	box-shadow: 2px 2px 8px 0px rgba(0,0,0,0.5);
+	color: rgba(255,255,255,0.7);
+}
+
+.social-list:nth-child(1):hover a{
+	background-color: rgba(0,0,0,0.8);
+}
+.social-list:nth-child(2):hover a{
+	background-color: rgba(0,0,0,0.8);
+}
+.social-list:nth-child(3):hover a{
+	background-color: rgba(0,0,0,0.8);
+}
+.social:hover span{
+	display: block;
+	padding-left: 40%;
+}
